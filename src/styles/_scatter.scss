@@ -1,0 +1,32 @@
+#scatter-plot {
+  color: black;
+}
+
+#scatter-plot > svg {
+}
+
+.circle-scatter {
+  fill: rgb(82, 48, 66);
+  stroke: none;
+  transition: 0.32s ease;
+}
+
+// .circle-scatter:hover {
+//   fill: rgb(140, 125, 215)
+// }
+
+.scatter-tooltip {
+  position: absolute;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  width: 70px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  pointer-events: none;
+}
+
+// .scatter-text {
+//   font-size: 15px;
+//   color: rgb(150, 0, 6);
+// }

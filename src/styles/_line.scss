@@ -1,0 +1,23 @@
+#line-path {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.data-point {
+  fill: navy;
+}
+
+.line-points-tooltip {
+  position: absolute;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 5px;
+  pointer-events: none;
+}
+
+.data-point:hover {
+  cursor: pointer;
+}

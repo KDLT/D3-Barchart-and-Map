@@ -1,0 +1,100 @@
+rect {
+  fill: rgba(93, 255, 202, 0.8);
+  transition: 0.2s ease;
+}
+.bar,
+.tsv-col-bar {
+  transition: 0.2s ease;
+  // stroke: navy;
+  // stroke-width: 0.8px;
+}
+
+.test-rect {
+  fill: rgba(117, 15, 36, 0.56);
+}
+
+.rect-positive {
+  fill: rgba(55, 232, 115, 0.75);
+}
+
+.rect-positive:hover {
+  fill: rgba(55, 232, 115, 1);
+}
+
+.rect-negative {
+  fill: rgba(204, 0, 0, 0.58);
+}
+
+.rect-negative:hover {
+  fill: rgba(204, 0, 0, 1);
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  // width: 60px;
+  // height: 28px;
+  padding: 2px 6px;
+  // font: 12px sans-serif;
+  background: rgba(130, 255, 244, 0.9);
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.bar:hover,
+.tsv-bar:hover,
+.tsv-col-bar:hover {
+  fill: navy;
+}
+.chart-text {
+  font-size: 20;
+  font-family: "Trebuchet MS";
+  fill: rgb(93, 255, 202);
+}
+
+.chart-rect {
+  transition: 0.2s ease;
+}
+
+.chart-rect:hover {
+  fill: navy;
+}
+
+.tsv-bar {
+  // padding-right: 70px;
+  overflow: visible;
+}
+
+.tsv-bar-hor {
+  padding-left: 20px;
+  overflow: visible;
+}
+
+.tsv-text {
+  font-size: 12;
+}
+
+.x-axis line, path{
+  // display: none;
+  stroke: lightgrey;
+  stroke-opacity: 0.8;
+  shape-rendering: crispEdges;
+}
+
+.y-axis line, path {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+#tsv-tooltip {
+  position: absolute;
+  text-align: center;
+  border-radius: 5px;
+  padding: 7px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 55px;
+  pointer-events: none;
+}
